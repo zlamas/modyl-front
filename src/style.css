@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "SF Pro";
+    src: url(/fonts/SFProText-Light.woff2) format("woff2");
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url(/fonts/SFProText-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url(/fonts/SFProText-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url(/fonts/SFProText-Semibold.woff2) format("woff2");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url(/fonts/SFProText-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+:root {
+    --heading: #363F46;
+    --dim: #85858B;
+    --border: #616B6A;
+    --bullet: #0A2D4F;
+    --card: #C9D2D1;
+    --select: #F7F6F2;
+    --button: #DAD9D5;
+    --link: #237BFF;
+}
+
+body {
+    background-color: #FFF;
+    font-family: "SF Pro", sans-serif;
+}
+
+h1, h2 {
+    color: var(--heading);
+    font-weight: 700;
+    letter-spacing: -0.45px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.no-scrollbar {
+    scrollbar-width: none;
+}
+
+.no-spinner {
+    appearance: textfield;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+    display: none;
+}
