@@ -62,7 +62,7 @@ const menuItems = [
                     <div class="w-[48px] h-[48px] bg-[url(/images/modyl-logo.svg)] bg-size-[85%] bg-position-[center_25%] bg-no-repeat rounded-full border border-black"></div>
 
                     <div>
-                        <div class="text-[14px]/[22px] text-[#545452] font-semibold">Аккредитованный застройщик</div>
+                        <div class="text-[14px]/[22px] text-[#545452] font-medium">Аккредитованный застройщик</div>
                         <div class="text-[12px]/[16px]">Работаем с Эскроу</div>
                     </div>
                 </div>
