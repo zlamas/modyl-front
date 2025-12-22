@@ -33,7 +33,6 @@ function onPointerMove(event) {
         value.value = [min, max];
     }
 }
-
 function onPointerUp() {
     sliderDragTarget.value = null;
 }
@@ -42,7 +41,7 @@ function onPointerUp() {
 <template>
     <div
         ref="slider"
-        class="relative bg-[#F3F2F2] rounded-full h-[5px]"
+        class="relative bg-[#F3F2F2] rounded-full h-[5px] touch-none"
         @pointermove="onPointerMove"
         @pointerup="onPointerUp"
     >
