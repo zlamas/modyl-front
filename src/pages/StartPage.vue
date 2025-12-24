@@ -30,7 +30,7 @@ import Page from "../components/Page.vue";
             </div>
 
             <div class="grid grid-cols-2 grid-rows-2 gap-x-[17px] gap-y-[14px] h-[240px]">
-                <a href="#/catalog" class="flex flex-col justify-between bg-(--card) bg-[url(/images/card-1.png),url(/images/card-stars.png)] bg-no-repeat bg-[auto_100%,auto_45px] bg-position-[bottom,122px_13px] px-4 py-7 row-span-full rounded-[15px]">
+                <a href="#/catalog" class="flex flex-col justify-between bg-(--card) bg-[url(/images/card-1.png)] bg-no-repeat bg-size-[auto_100%] bg-bottom px-4 py-7 row-span-full rounded-[15px]">
                     <div class="flex items-center gap-2">
                         <img src="/images/search.svg" width="20" alt="">
                         <span class="font-semibold text-xl text-[#4A362F] tracking-[0.35px]">Каталог</span>
@@ -68,7 +68,7 @@ import Page from "../components/Page.vue";
 
         <div class="flex items-center gap-4 bg-(--border) p-3 rounded-[15px]">
             <img src="/images/message.svg" width="40" alt="">
-            <span class="font-semibold text-lg/[20px] text-white tracking-[0.35px]">О нас</span>
+            <span class="font-semibold text-lg/[20px] text-white tracking-[0.35px]">Баннер</span>
             <img class="ml-auto" src="/images/arrow.svg" width="20" alt="">
         </div>
 
@@ -79,7 +79,7 @@ import Page from "../components/Page.vue";
                     <img class="p-3 rounded-[12px] border border-(--card) bg-[#C9D2D14D]" src="/images/call.svg" alt="">
 
                     <div>
-                        <div class="text-[14px]/[22px] text-[#384040] font-semibold">Телефон для связи:</div>
+                        <div class="text-[14px]/[22px] text-[#384040] font-semibold">Предложение 1</div>
                         <div class="text-[12px]/[16px]">8 (343) 213-06-05</div>
                     </div>
                 </div>
@@ -88,25 +88,7 @@ import Page from "../components/Page.vue";
                     <img class="p-3 rounded-[12px] border border-(--card) bg-[#C9D2D14D]" src="/images/call.svg" alt="">
 
                     <div>
-                        <div class="text-[14px]/[22px] text-[#384040] font-semibold">Телефон для связи:</div>
-                        <div class="text-[12px]/[16px]">8 (343) 213-06-05</div>
-                    </div>
-                </div>
-
-                <div class="flex items-center gap-3 bg-[#F9F9F9] rounded-[15px] p-3 w-[280px] shrink-0">
-                    <img class="p-3 rounded-[12px] border border-(--card) bg-[#C9D2D14D]" src="/images/call.svg" alt="">
-
-                    <div>
-                        <div class="text-[14px]/[22px] text-[#384040] font-semibold">Телефон для связи:</div>
-                        <div class="text-[12px]/[16px]">8 (343) 213-06-05</div>
-                    </div>
-                </div>
-
-                <div class="flex items-center gap-3 bg-[#F9F9F9] rounded-[15px] p-3 w-[280px] shrink-0">
-                    <img class="p-3 rounded-[12px] border border-(--card) bg-[#C9D2D14D]" src="/images/call.svg" alt="">
-
-                    <div>
-                        <div class="text-[14px]/[22px] text-[#384040] font-semibold">Телефон для связи:</div>
+                        <div class="text-[14px]/[22px] text-[#384040] font-semibold">Предложение 2</div>
                         <div class="text-[12px]/[16px]">8 (343) 213-06-05</div>
                     </div>
                 </div>
@@ -127,7 +109,7 @@ import Page from "../components/Page.vue";
 
         <div class="flex items-center gap-4 bg-(--border) p-3 rounded-[15px]">
             <img src="/images/message.svg" width="40" alt="">
-            <span class="font-semibold text-lg/[20px] text-white tracking-[0.35px]">О нас</span>
+            <span class="font-semibold text-lg/[20px] text-white tracking-[0.35px]">Баннер</span>
         </div>
     </Page>
 </template>
