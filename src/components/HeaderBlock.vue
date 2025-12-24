@@ -31,7 +31,7 @@ const menuItems = [
 </script>
 
 <template>
-    <header class="flex gap-3.5 items-center p-5 tracking-[-0.45px] leading-none">
+    <header class="sticky top-0 bg-white flex gap-3.5 items-center p-5 tracking-[-0.45px] leading-none">
         <div class="grid gap-2.5 flex-1">
             <img src="/images/logo.svg" width="100" alt="">
             <slot />

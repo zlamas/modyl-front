@@ -14,7 +14,7 @@ const props = defineProps({
         <slot name="header" />
     </HeaderBlock>
 
-    <main :class="`px-5 py-2.5 ${props.class}`">
+    <main :class="`p-5 pt-2.5 ${props.class}`">
         <slot />
     </main>
 </template>
